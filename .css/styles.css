@@ -1,0 +1,15 @@
+.hlavnistranka{
+    text-align: center;
+}
+
+.hedr{
+    text-align: center;
+    background-color: rgb(76, 134, 112);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+body{
+    background-image: url('../duhagiph.gif');
+
+}
