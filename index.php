@@ -8,17 +8,19 @@
 
         </head>
 
-        <body>
+        <body style="background-color: rgb(75, 194, 230);">
             <div class="head">
                 <?php include 'templates/header.php';?>
             </div>
 
             <?php include '.php/mezery.php';?>
 
-            <div class="hlavnistranka">
-                <p1>Pavel!</p1>
-                <img src=
-            </div>
+            <div>
+                <p>zda</p>
+                <p>dominik</p>
+            </div>  
+
+
 
 
             <div class="foot">
