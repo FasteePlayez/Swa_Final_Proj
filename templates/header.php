@@ -10,7 +10,7 @@
 
         <body>
             <div class="hedr">
-                <p>nemam rad mochakaramelove obcany</p>
+                <p>The Velká Úžasná Stránka Pavla Bartoše!</p>
             </div>
         </body>
 

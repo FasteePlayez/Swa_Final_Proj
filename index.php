@@ -15,10 +15,17 @@
 
             <?php include '.php/mezery.php';?>
 
-            <div>
-                <p>zda</p>
-                <p>dominik</p>
-            </div>  
+            <div class="homo">
+
+                <h1>Obsahuje: <div class="roller">
+                    <span id="rolltext">Životopis<br/>
+                    Úspěchy<br/>
+                    Fotky<br/>
+                    <span id="spare-time">Bolest </span><br/>
+                </div>
+                </h1>
+
+            </div>
 
 
 
