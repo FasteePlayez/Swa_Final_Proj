@@ -27,7 +27,7 @@
 
             </div>
 
-            <ul style="width:95%;list-style-type:none;">
+            <ul style="width:95%;list-style-type:none;" id="fotky">
                 <li style="float:left"><img class="bordr" src="../paulielajk.webp" style="width:350px"></li>
                 <li style="float:right"><img class="bordr" src="../paulielajk.webp" style="width:350px;-webkit-transform: scaleX(-1);transform: scaleX(-1);"></li>
             <ul>

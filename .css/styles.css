@@ -1,3 +1,8 @@
+body{
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .hlavnistranka{
     text-align: center;
 }
@@ -25,17 +30,22 @@
   animation: pedo 0.5s linear infinite;
 }
 .duha{
-    background-image: url('../duhagiph.gif');
-
+  background-image: url('../duhagiph.gif');
+  background-color: #ff0707;
+  background-attachment: fixed;
+  background-size:unset;
 }
+
 .hvezdy{
   background-image: url('../pozadizivotopis.png');
+  
 }
 
 
 .teletabi{
   background-image: url('../teletabi.jpg');
-  
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 
@@ -212,9 +222,6 @@ a:hover{
   border-width: 5px;
   animation: zda 0.5s linear infinite;
   width: 500px;
-  
-  
-  
   position: absolute;
   align-items: center;
   top: 50%;
@@ -236,15 +243,8 @@ a:hover{
   animation: zda2 0.5s linear infinite;
   width: 500px;
   background-color: #0e1b45;
-  
-  
-  
-  
-  position: absolute;
   align-items: center;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -10%);
+  display:inline-block;
 }
 
 .normalnitext{
@@ -252,10 +252,19 @@ a:hover{
   align-items: center;
   font-size: 35px;
   font-family: Tahoma;
-  width: 1600px;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -60%);
-  position: absolute;
+  display:inline-block;
 }
 
+.uprostred{
+  text-align: center;
+  align-items: center;
+  width:80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media only screen and (max-width: 1530px) {
+  #fotky{
+    display: none;
+  }
+}
