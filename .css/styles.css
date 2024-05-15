@@ -17,9 +17,36 @@
     animation: pedo 0.5s linear infinite;
 
 }
-body{
+
+.bordr {
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  animation: pedo 0.5s linear infinite;
+}
+.duha{
     background-image: url('../duhagiph.gif');
 
+}
+.hvezdy{
+  background-image: url('../pozadizivotopis.png');
+}
+
+
+.teletabi{
+  background-image: url('../teletabi.jpg');
+  
+}
+
+
+a{
+  color:#1D3557;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#3766a7;
+  text-decoration: underline;
 }
 
 .roller{
@@ -77,7 +104,7 @@ body{
   .roller #rolltext {
     position: absolute;
     top: 0;
-    animation: slide 8s infinite;
+    animation: slide 12s infinite;
     padding-top: 9px;
     padding-bottom: 9px;
   }
@@ -138,7 +165,7 @@ body{
   }
   }
 
-.homo{
+.skrolovak{
     position: absolute;
     border-style: solid;
     border-color: white;
@@ -158,3 +185,77 @@ body{
     66% {border-color: blue;}
     100% {border-color: red;}
 }
+
+@keyframes zda{
+  0% {border-color: black;}
+  33% {border-color: grey;}
+  66% {border-color: lightslategrey;}
+  100% {border-color: black;}
+}
+@keyframes zda2{
+  0% {border-color: rgb(170, 16, 170);}
+  33% {border-color: rgb(31, 31, 139);}
+  66% {border-color: rgb(6, 138, 131);}
+  100% {border-color: rgb(170, 16, 170);}
+}
+
+.bolest{
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+  font-size: 200px;
+  font-style: italic;
+  font-family: Impact;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  animation: zda 0.5s linear infinite;
+  width: 500px;
+  
+  
+  
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.zivot{
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+  font-size: 100px;
+  font-style: italic;
+  font-family: Impact;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  animation: zda2 0.5s linear infinite;
+  width: 500px;
+  background-color: #0e1b45;
+  
+  
+  
+  
+  position: absolute;
+  align-items: center;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+.normalnitext{
+  color: white;
+  align-items: center;
+  font-size: 35px;
+  font-family: Tahoma;
+  width: 1600px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  position: absolute;
+}
+
