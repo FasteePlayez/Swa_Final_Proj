@@ -40,7 +40,7 @@
                 <?php include 'templates/footer.php';?>
             </div>
 
-            <body window.onload="redirekt()">
+            <body onload="redirekt()">
 
 
         </body>
