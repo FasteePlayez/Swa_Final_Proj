@@ -40,7 +40,9 @@
                 <?php include 'templates/footer.php';?>
             </div>
 
+            <script src=".js/skriptovani.js"></script>
             <body onload="redirekt()">
+
 
 
         </body>
