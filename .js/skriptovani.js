@@ -1,7 +1,10 @@
-if (confirm('Are you sure you want to save this thing into the database?')) {
-    // Save it!
-    console.log('Thing was saved to the database.');
-  } else {
-    // Do nothing!
-    console.log('Thing was not saved to the database.');
-  }
+function redirekt(){
+    if (confirm('Je ti nad 18 let?')) {
+        // Save it!
+        console.log('je legalni chlapci.');
+      } else {
+        
+        console.log('neni legalni chlapci.');
+        location.replace("https://www.google.com/")
+      }
+}
