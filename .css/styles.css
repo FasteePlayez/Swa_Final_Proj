@@ -38,7 +38,7 @@ body{
 
 .hvezdy{
   background-image: url('../pozadizivotopis.png');
-  
+
 }
 
 
@@ -64,14 +64,14 @@ a:hover{
     padding:0;
     font-family: 'Arvo';
   }
-  
+
   body{
     background-color: #E63946;
   }
-  
+
   .main{
     height:100vh;
-    width:100%;  
+    width:100%;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -80,20 +80,20 @@ a:hover{
   h1{
     text-align:center;
     text-transform: uppercase;
-    color: #F1FAEE; 
+    color: #F1FAEE;
     font-size: 4rem;
   }
-  
+
   .roller{
     height: 4.125rem;
     line-height: 4rem;
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     color: #1D3557;
 
     text-align: center;
@@ -102,15 +102,15 @@ a:hover{
     left: 50%;
     transform: translate(-50%, -0%);
   }
-  
-  
+
+
   #spare-time{
     font-size: 4.125rem;
     margin-top: 0;
     color: #1D3557;
-    
+
   }
-  
+
   .roller #rolltext {
     position: absolute;
     top: 0;
@@ -118,13 +118,13 @@ a:hover{
     padding-top: 9px;
     padding-bottom: 9px;
   }
-  
+
   @keyframes slide {
     0%{
       top:0;
     }
     25%{
-      top: -4rem;    
+      top: -4rem;
     }
     50%{
       top: -8rem;
@@ -133,38 +133,38 @@ a:hover{
       top: -12.25rem;
     }
   }
-  
+
   @media screen and (max-width: 600px){
     h1{
     text-align:center;
     text-transform: uppercase;
-    color: #F1FAEE; 
+    color: #F1FAEE;
     font-size: 2.125rem;
   }
-    
+
     .roller{
-    height: 2.6rem; 
-    line-height: 2.125rem;  
+    height: 2.6rem;
+    line-height: 2.125rem;
     text-align: center;
     width: 50%;
     align-items: center;
     }
-    
+
     #spare-time {
       font-size: 1rem;
       letter-spacing: 0.1rem;
     }
-    
-    .roller #rolltext {  
-    animation: slide-mob 5s infinite;  
+
+    .roller #rolltext {
+    animation: slide-mob 5s infinite;
   }
-    
+
     @keyframes slide-mob {
     0%{
       top:0;
     }
     25%{
-      top: -2.125rem;    
+      top: -2.125rem;
     }
     50%{
       top: -4.25rem;
@@ -283,6 +283,24 @@ a:hover{
   animation: zda2 0.5s linear infinite;
   width: 500px;
   background-color: #b8eed7;
+  align-items: center;
+  display:inline-block;
+}
+
+.uspech{
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: rgb(135, 205, 205);
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+  font-family: Impact;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  animation: zda2 0.5s linear infinite;
+  width: 700px;
   align-items: center;
   display:inline-block;
 }

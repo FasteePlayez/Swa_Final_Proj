@@ -15,7 +15,7 @@
             </div>
         </div>
 
-        <?php 
+        <?php
         $obrazky = glob('obrazky' . '/*');
 
         foreach ($obrazky as $obrazek) {
